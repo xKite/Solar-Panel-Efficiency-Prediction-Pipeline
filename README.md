@@ -1,11 +1,10 @@
-# aiap18-Ho-Kwok-Leong-827J
-## Solar Panel Efficiency Prediction Pipeline
+# Solar Panel Efficiency Prediction Pipeline
 
-### Author
+## Author
 - **Full Name:** Ho Kwok Leong
 - **Email Address:** Ho_Kwok_Leong@outlook.sg
 
-#### Overview
+### Overview
 
 This repository contains a data pipeline designed to handle and preprocess weather and air quality datasets. The pipeline involves data extraction, merging, cleaning, and model training. The main components of the pipeline are as follows:
 
@@ -17,13 +16,13 @@ This repository contains a data pipeline designed to handle and preprocess weath
 
 - `Model Training`: Train multiple models (Random Forest, SVM, Gradient Boosting) and evaluate their performance using accuracy, classification report, confusion matrix, Matthews Correlation Coefficient (MCC), and Log Loss.
 
-##### Folder Structure
+#### Folder Structure
 
 - `notebooks`: Includes Jupyter notebooks for exploratory data analysis (EDA).
 - `scripts`: Contains the main Python script (`src/main.py`) implementing the data processing and machine learning pipeline.
 - `requirements.txt`: Lists the Python packages required to run the project.
 
-###### Model Selection
+##### Model Selection
 
 The task is to classify the daily solar panel efficiency (Low, Medium, High) based on weather data (Daily Rainfall Total, Sunshine Duration, Cloud Cover).
 
